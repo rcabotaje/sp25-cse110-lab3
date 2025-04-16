@@ -1,5 +1,5 @@
 Fill in the passphrases here.
-1. WongAvery -->
+1. WongAvery 
 2. iHateC++
 3. HTMLRules
 4. JavaScriptRocks
