@@ -67,7 +67,8 @@ h1{
   height: 150px;
   max-height: 151px;
   max-width: 301px;
-  display: inline-block grid;
+  display: inline-block ;
+  display: grid;
 }
 .bruh1{
   color: blueviolet;
