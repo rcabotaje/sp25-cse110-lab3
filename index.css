@@ -1,0 +1,102 @@
+/* This is a comment to make my CSS easier to read ;)*/
+@font-face {
+  font-family: "myFont";
+  src: url("myFont.woff2");
+}
+:root {
+    --main-bg-color: rgb(255, 0, 0);
+  }
+h1{
+    color: var(--main-bg-color, red);
+}
+
+.menu {
+    background-color: #1234;
+    font: 1em sans-serif;
+    border: 1cm;
+    padding: 1mm;
+    margin: 1px;
+    
+}
+
+.box {
+  background-color: lightblue;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: auto;
+}
+
+.wrapper {
+  font-size: 1em;
+}
+
+.px {
+  width: 2vh;
+}
+
+.vw {
+  width: 10vw;
+}
+
+.em {
+  width: 10em;
+}
+
+
+.box1 {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 5px; /*shorthand */
+  width: 300px;
+  height: 150px;
+  display: block flex ;
+}
+.box2 {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding: 40px;
+  margin: 5px 6px; /*longhand */
+  width: 300px;
+  height: 150px;
+  max-height: 151px;
+  max-width: 301px;
+  display: inline-block grid;
+}
+.bruh1{
+  color: blueviolet;
+  text-decoration: line-through;
+  text-align: center;
+  position: relative;
+}
+
+.bruh2{
+  position: static;
+  font-style: italic;
+}
+
+.favoritestyled:hover{
+  background: red;
+}
+
+#email{
+  color: aqua;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+p{
+  color: black;
+}
+
+a[href="New_Recording.m4a"]{
+  padding: 2px;
+}
