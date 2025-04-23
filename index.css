@@ -92,3 +92,11 @@ h1{
 body{
   font-family: sans-serif;
 }
+
+p{
+  color: black;
+}
+
+a[href="New_Recording.m4a"]{
+  padding: 2px;
+}
